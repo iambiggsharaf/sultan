@@ -12,7 +12,7 @@ def partition(arr, low, high):
   
         # If current element is smaller than or
         # equal to pivot
-        if max(arr[j][1]) <= pivot:
+        if max(arr[j][1]) >= pivot:
   
             # increment index of smaller element
             i = i+1
